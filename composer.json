@@ -1,0 +1,21 @@
+{
+    "name": "jacobbennett/phpghostpost",
+    "description": "A PHP Library for creating usable Post objects from Ghost RSS feeds",
+    "keywords": ["Ghost", "Blog", "RSS", "XML", "PHP"],
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "me@jakebennett.net", 
+            "name": "Jacob Bennett",
+            "homepage": "http://jakebennett.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SendyPHP\\": "src/"
+        }
+    }
+}
