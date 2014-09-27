@@ -22,7 +22,7 @@ composer update
 Finally make sure to place a `use` statement at the top of your `PHP` file that will be using the library.
 
 ```
-use JacobBennett\PhpGhostPost\PostCreator;
+use jacobbennett\phpghostpost\PostCreator;
 ```
 
 That’s all. You should now be able to use the GhostXML Library.
@@ -31,10 +31,10 @@ That’s all. You should now be able to use the GhostXML Library.
 ## Usage
 
 ```php
-use JacobBennett\PhpGhostPost\PostCreator;
+use jacobbennett\phpghostpost\PostCreator;
 
 // Set RSS feed URL
-$feedUrl = 'http://blog.spreadtruth.com/rss/';
+$feedUrl = 'http://youblog.ghost.io/rss/';
 
 $PostCreator = new PostCreator($feedUrl);
 $posts = $PostCreator->getPosts();
