@@ -43,6 +43,13 @@ $PostCreator = new PostCreator($feedUrl);
 // Grab and parse the RSS feed into an array of Post objects
 $posts = $PostCreator->getPosts();
 
+// Loop through posts and call properties or methods on each
+// To display desired information
+foreach($posts as $post){
+	echo "<h1>" . $post->title . "</h1><br/>";
+	echo "Published " . $post->date_ago();
+}
+
 ```
 
 ## Post Object methods and properties
