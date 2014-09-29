@@ -1,5 +1,7 @@
 <?php namespace JacobBennett\PhpGhostPost;
 
+use JacobBennett\PhpGhostPost\Post;
+
 /**
 * Post Creator
 *
