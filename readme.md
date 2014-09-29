@@ -9,7 +9,7 @@ Begin by installing this package through Composer. Edit your project's `composer
 
 ```
 "require": {
-	"jacobbennett/ghostxml": "dev-master"
+	"jacobbennett/phpghostpost": "dev-master"
 }
 ```
 

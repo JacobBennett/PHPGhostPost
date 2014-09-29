@@ -1,4 +1,4 @@
-<?php namespace JacobBennett\PhpGhostPost;
+<?php namespace jacobbennett\phpghostpost;
 
 use \SimpleXMLElement;
 use \DateTime;
